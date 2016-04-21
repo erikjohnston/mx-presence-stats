@@ -1,0 +1,17 @@
+[package]
+authors = ["Erik Johnston <erikj@matrix.org>"]
+name = "presence_stats"
+version = "0.1.0"
+
+[dependencies]
+chrono = "0.2.21"
+clap = "2.3.0"
+hyper = "0.8.1"
+rustc-serialize = "0.3.19"
+serde = "0.7.0"
+serde_json = "0.7.0"
+serde_macros = "0.7.2"
+
+[dependencies.toml]
+features = ["serde"]
+version = "0.1.28"
